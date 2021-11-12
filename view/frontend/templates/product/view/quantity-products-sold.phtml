@@ -1,0 +1,12 @@
+<?php
+    $_product = $block->getProduct();
+    $_helper = $this->_helper = $this->helper('Mateus\QuantityProductsSold\Helper\Data');
+    $qty = $_helper->getSoldQuantityByProductId($_product->getId());
+?>
+
+<?php if ($qty > 0): ?>
+    <div class="container-qty-products-sold">
+        <img src="<?= $block->getViewFileUrl('Mateus_QuantityProductsSold::images/icon-sold.png'); ?>" alt="Icon">
+        <p><?= $qty . __(' Units Sold'); ?></p>
+    </div>
+<?php endif; ?>

@@ -1,0 +1,24 @@
+{
+    "name": "mateus/module-quantity-products-sold",
+    "description": "It counts how many items were sold based on the product ID and lists the quantity on the product page.",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "keywords": ["mateussantin", "magento2", "magento module" ,"product" ,"product sold"],
+    "homepage": "https://github.com/mateussantin/count-quantity-of-products-sold",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mateus Santin Jr",
+            "email": "mateussantin.jr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mateus\\QuantityProductsSold\\": ""
+        }
+    }
+}
