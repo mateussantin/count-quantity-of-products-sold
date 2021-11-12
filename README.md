@@ -1,5 +1,5 @@
 # (Magento 2) Count Quantity of Products Sold
-It counts how many items were sold based on the product ID and lists the quantity on the product page.
+Counts how many items were sold based on the product ID and lists the total quantity on the product page just above the title.
 
 ## Introduction to installation:
 
