@@ -12,4 +12,4 @@ php bin/magento setup:static-content:deploy
 ```
 
 ## Screenshot
-![ScreenShot](https://github.com/mateussantin/count-quantity-of-products-sold/blob/master/screenshot/image.png)
+![ScreenShot](https://github.com/mateussantin/count-quantity-of-products-sold/blob/main/screenshot/image.png)
