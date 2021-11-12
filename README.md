@@ -7,8 +7,8 @@ It counts how many items were sold based on the product ID and lists the quantit
 
 ```
 composer require mateus/module-quantity-products-sold
+php bin/magento module:enable Mateus_QuantityProductsSold
 php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy
 ```
 
 ## Screenshot
